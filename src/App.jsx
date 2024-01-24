@@ -9,7 +9,7 @@ function App() {
       </h1>
 
       <div className="relative mt-56">
-        <div className="bg-blue-500 flex items-center justify-center h-[160px] w-[160px] rounded-full">
+        <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full">
           <div>
             <img className="ps-5" src="/images/goal 2.png" alt="" srcset="" />
             <p className="text-white ps-5  font-bold text-base"> Step 1: </p>
@@ -19,11 +19,11 @@ function App() {
         </div>
 
         <img
-          className="absolute bottom-[150px]  left-[130px]"
+          className="absolute lg:bottom-[150px]  lg:left-[130px] bottom-[200px]  left-[130px]"
           src="/images/Arrow 1.png"
           alt=""
         />
-        <div className="bg-blue-500 flex items-center justify-center h-[160px] w-[160px] rounded-full absolute left-[325px] bottom-[190px]">
+        <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute left-[325px] bottom-[190px]">
           <div>
             <img
               className="ps-5"
@@ -39,11 +39,13 @@ function App() {
           </div>
         </div>
         <img
-          className="absolute bottom-[240px]  left-[465px]"
+          className="absolute lg:bottom-[240px]  lg:left-[465px]
+          bottom-[140px] lg:rotate-0 rotate-45  left-[475px]
+          "
           src="/images/Arrow 2.png"
           alt=""
         />
-           <div className="bg-blue-500 flex items-center justify-center h-[160px] w-[160px] rounded-full absolute left-[650px] bottom-[100px]">
+           <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute lg:left-[650px] lg:bottom-[100px] left-[480px] -bottom-[130px]">
           <div>
             <img
               className="ps-5"
@@ -61,11 +63,11 @@ Pay amount <br /> <span className="ps-3">on time</span>
         </div>
 
         <img
-          className="absolute bottom-[160px]  left-[810px]"
+          className="absolute lg:bottom-[160px] lg:rotate-0 rotate-180  lg:left-[810px] -bottom-[130px]  left-[220px]"
           src="/images/Arrow 3.png"
           alt=""
         />
-         <div className="bg-blue-500 flex items-center justify-center h-[160px] w-[160px] rounded-full absolute left-[1040px] bottom-[200px]">
+         <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute left-[30px] -bottom-[300px] lg:left-[1040px] lg:bottom-[200px]">
           <div>
             <img
               className="ps-5"
