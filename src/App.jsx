@@ -3,15 +3,15 @@ import Circle from "./components/Circle";
 
 function App() {
   return (
-    <div className=" w-full p-20">
-      <h1 className="text-4xl font-bold text-center text-red-400 my-20">
+    <div className=" w-full p-20 mb-20">
+      <h1 className="text-4xl font-bold text-center ms-10  lg:ms-0 text-black lg:my-20">
         How it works
       </h1>
 
-      <div className="relative mt-56">
-        <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full">
+      <div className="relative mt-56 ">
+        <div className="bg-blue-500 flex items-center justify-center lg:h-[160px]  lg:w-[160px] h-[200px] w-[200px] rounded-full">
           <div>
-            <img className="ps-5" src="/images/goal 2.png" alt="" srcset="" />
+            <img className="ps-5 hover:scale-150 transition ease-in-out delay-100 hover:rotate-180" src="/images/goal 2.png" alt="" srcset="" />
             <p className="text-white ps-5  font-bold text-base"> Step 1: </p>
 
             <p className="text-white   font-bold text-base"> Set your goal</p>
@@ -26,7 +26,7 @@ function App() {
         <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute left-[325px] bottom-[190px]">
           <div>
             <img
-              className="ps-5"
+              className="ps-5 hover:scale-150 transition ease-in-out delay-100 hover:rotate-180" src="/images/goal 2.png"
               src="/images/add-friend 1.png"
               alt=""
               srcset=""
@@ -48,7 +48,7 @@ function App() {
            <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute lg:left-[650px] lg:bottom-[100px] left-[480px] -bottom-[130px]">
           <div>
             <img
-              className="ps-5"
+              className="ps-5 hover:scale-150 transition ease-in-out delay-100 hover:rotate-180" src="/images/goal 2.png"
               src="/images/pay-per-click 1.png"
               alt=""
               srcset=""
@@ -70,7 +70,7 @@ Pay amount <br /> <span className="ps-3">on time</span>
          <div className="bg-blue-500 flex items-center justify-center lg:h-[160px] lg:w-[160px] h-[200px] w-[200px] rounded-full absolute left-[30px] -bottom-[300px] lg:left-[1040px] lg:bottom-[200px]">
           <div>
             <img
-              className="ps-5"
+              className="ps-5 hover:scale-150 transition-all ease-in-out delay-100  hover:-rotate-180" src="/images/goal 2.png"
               src="/images/gift-card 1.png"
               alt=""
               srcset=""
